@@ -16,6 +16,10 @@
 		6335172C240F6C4D007C3CBA /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6335172B240F6C4D007C3CBA /* Board.swift */; };
 		6335172E240F6DAD007C3CBA /* Cruz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6335172D240F6DAD007C3CBA /* Cruz.swift */; };
 		63351730240F6DFD007C3CBA /* Circulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6335172F240F6DFD007C3CBA /* Circulo.swift */; };
+		63351732240F70B7007C3CBA /* Colores.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63351731240F70B7007C3CBA /* Colores.xcassets */; };
+		63351735240F7167007C3CBA /* Lemonada.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63351734240F7167007C3CBA /* Lemonada.ttf */; };
+		63351737240F71B0007C3CBA /* Forma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63351736240F71B0007C3CBA /* Forma.swift */; };
+		63351739240F723D007C3CBA /* Funciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63351738240F723D007C3CBA /* Funciones.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		6335172B240F6C4D007C3CBA /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		6335172D240F6DAD007C3CBA /* Cruz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cruz.swift; sourceTree = "<group>"; };
 		6335172F240F6DFD007C3CBA /* Circulo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circulo.swift; sourceTree = "<group>"; };
+		63351731240F70B7007C3CBA /* Colores.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colores.xcassets; sourceTree = "<group>"; };
+		63351734240F7167007C3CBA /* Lemonada.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lemonada.ttf; sourceTree = "<group>"; };
+		63351736240F71B0007C3CBA /* Forma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forma.swift; sourceTree = "<group>"; };
+		63351738240F723D007C3CBA /* Funciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funciones.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +70,13 @@
 		63351716240F6A88007C3CBA /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				63351733240F715C007C3CBA /* Fonts */,
 				63351717240F6A88007C3CBA /* AppDelegate.swift */,
 				63351719240F6A88007C3CBA /* SceneDelegate.swift */,
 				6335171B240F6A88007C3CBA /* ContentView.swift */,
+				63351736240F71B0007C3CBA /* Forma.swift */,
+				63351738240F723D007C3CBA /* Funciones.swift */,
+				63351731240F70B7007C3CBA /* Colores.xcassets */,
 				6335171D240F6A8C007C3CBA /* Assets.xcassets */,
 				6335172B240F6C4D007C3CBA /* Board.swift */,
 				6335172D240F6DAD007C3CBA /* Cruz.swift */,
@@ -82,6 +94,14 @@
 				63351720240F6A8C007C3CBA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63351733240F715C007C3CBA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				63351734240F7167007C3CBA /* Lemonada.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +165,8 @@
 				63351724240F6A8C007C3CBA /* LaunchScreen.storyboard in Resources */,
 				63351721240F6A8C007C3CBA /* Preview Assets.xcassets in Resources */,
 				6335171E240F6A8C007C3CBA /* Assets.xcassets in Resources */,
+				63351735240F7167007C3CBA /* Lemonada.ttf in Resources */,
+				63351732240F70B7007C3CBA /* Colores.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +181,8 @@
 				63351730240F6DFD007C3CBA /* Circulo.swift in Sources */,
 				6335171A240F6A88007C3CBA /* SceneDelegate.swift in Sources */,
 				6335172C240F6C4D007C3CBA /* Board.swift in Sources */,
+				63351739240F723D007C3CBA /* Funciones.swift in Sources */,
+				63351737240F71B0007C3CBA /* Forma.swift in Sources */,
 				6335172E240F6DAD007C3CBA /* Cruz.swift in Sources */,
 				6335171C240F6A88007C3CBA /* ContentView.swift in Sources */,
 			);
