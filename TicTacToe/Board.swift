@@ -14,14 +14,16 @@ struct Board: Shape {
     
     func path(in rect: CGRect) -> Path {
         Path { path in
-            path.move(to: CGPoint(x: size * 2.25, y: size * 0.25))
-            path.addLine(to: CGPoint(x: size * 2.25, y:size * 6 + size * 0.5) )
-            path.move(to: CGPoint(x: size * 4.5, y: size * 0.25))
-            path.addLine(to: CGPoint(x: size * 4.5, y:size * 6 + size * 0.5) )
-            path.move(to: CGPoint(x: size * 0.25, y: size * 2.25))
-            path.addLine(to: CGPoint(x: size * 6 + size * 0.5, y:size * 2.25) )
-            path.move(to: CGPoint(x: size * 0.25, y: size * 4.50))
-            path.addLine(to: CGPoint(x: size * 6 + size * 0.5, y:size * 4.5) )
+            let cuadro = (size-32) / 3
+            print(cuadro)
+            path.move(to: CGPoint(x: cuadro, y: 0))
+            path.addLine(to: CGPoint(x: cuadro, y: cuadro * 3))
+            path.move(to: CGPoint(x: cuadro * 2, y: 0))
+            path.addLine(to: CGPoint(x: cuadro * 2, y: cuadro * 3))
+            path.move(to: CGPoint(x: 0, y: cuadro))
+            path.addLine(to: CGPoint(x: cuadro * 3, y:cuadro))
+            path.move(to: CGPoint(x: 0, y: cuadro * 2))
+            path.addLine(to: CGPoint(x: cuadro * 3, y:cuadro * 2))
         }
     }
     
